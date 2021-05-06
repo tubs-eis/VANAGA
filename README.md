@@ -2,6 +2,12 @@
 
 VANAGA is an open-source tool, which optimizes the instruction-set encoding in embedded processors using a one- and multi-objective (NSGA-II) Genetic Algorithm (GA).
 
+The VANAGA tool is described in the following paper. If you are using VANAGA, please cite it as follows:
+>M. Weißbrich, J. A. Moreno-Medina, and G. Payá-Vayá.
+>"**Using Genetic Algorithms to Optimize the Instruction-Set Encoding on Processor Cores**".
+>*2021 10th International Conference on Modern Circuits and Systems Technologies (MOCAST)*, 2021, accepted for publication.
+
+
 ## Table of contents
 
 [Getting started](#Getting-started)
