@@ -23,7 +23,7 @@ The following overview should outline the configuration of the VANAGA open sourc
 Clone the repository
 
 ```bash
-git clone https://github.com/c3e-tubs/VANAGA
+git clone https://github.com/tubs-eis/VANAGA
 ```
 
 ### Configuring VANAGA
