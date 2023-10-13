@@ -63,7 +63,7 @@ def cache_for_mutation(population, num_instructions):
     for k in range(population_size):
         row_cache = []
         for instructions in range(num_instructions):
-            missing_instruction = numpy.binary_repr(instructions, width=4)
+            missing_instruction = numpy.binary_repr(instructions, width=cf.bitlength)
             if missing_instruction not in population[k]:
                 row_cache.append(missing_instruction)
 
