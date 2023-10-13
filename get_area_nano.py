@@ -22,6 +22,7 @@ def get_cell_area(folder):
             match = re.search(pattern, line)
             if match:
                 area_cell = line[34:41]
+                #area_cell = float(line.split()[1].strip())
 
     return area_cell
 
@@ -39,6 +40,7 @@ def get_func_rtc_inst_area(folder):
             match = re.search(pattern, line)
             if match:
                 area_func = line[35:41]
+                #area_func = float(line.split()[1].strip())
 
     return area_func
 
@@ -56,6 +58,7 @@ def get_nano_ctrl_instr_area(folder):
             match = re.search(pattern, line)
             if match:
                 area_ctrl_inst = line[35:41]
+                #area_ctrl_inst = float(line.split()[1].strip())
 
     return area_ctrl_inst
 
@@ -73,6 +76,7 @@ def get_nano_dp_inst_area(folder):
             match = re.search(pattern, line)
             if match:
                 area_dp_inst = line[35:41]
+                #area_dp_inst = float(line.split()[1].strip())
 
     return area_dp_inst
 
